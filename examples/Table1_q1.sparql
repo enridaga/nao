@@ -1,0 +1,27 @@
+prefix : <http://purl.org/news/angles/example/Table1/> 
+prefix ex: <http://purl.org/news/angles/example/Table1/> 
+prefix nao: <http://purl.org/news/angles/> 
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix xml: <http://www.w3.org/XML/1998/namespace> 
+prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> 
+
+SELECT 
+	?angle 
+	?storyline 
+	(GROUP_CONCAT(str(?event_out); separator=",\n") as ?events)
+WHERE {  
+	?angle rdfs:subClassOf+ nao:NewsAngle .
+	[] a ?angle ; 
+		nao:hasEvents ?events ; 
+		nao:hasFabulae/nao:includesFabula ?fabula
+		.
+	?fabula a nao:Fabula ;
+		rdfs:label ?storyline ;
+		nao:hasEvent/rdfs:label ?event_out
+		.
+
+} 
+GROUP BY ?angle ?storyline
