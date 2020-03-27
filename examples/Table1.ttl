@@ -30,15 +30,6 @@ nao:hasEvents rdf:type owl:AnnotationProperty .
 ###  http://purl.org/news/angles/hasFabulae
 nao:hasFabulae rdf:type owl:AnnotationProperty .
 
-
-###  http://purl.org/news/angles/includesEvent
-nao:includesEvent rdf:type owl:AnnotationProperty .
-
-
-###  http://purl.org/news/angles/includesFabula
-nao:includesFabula rdf:type owl:AnnotationProperty .
-
-
 ###  http://semanticweb.cs.vu.nl/2009/11/sem/eventType
 sem:eventType rdf:type owl:AnnotationProperty .
 
@@ -124,7 +115,7 @@ ex:A-against-B rdf:type owl:NamedIndividual ;
 ###  http://purl.org/news/angles/example/Table1/A-against-B-events
 ex:A-against-B-events rdf:type owl:NamedIndividual ,
                                nao:EventSpace ;
-                      nao:includesEvent ex:A-against-B ,
+                      nao:hasMember ex:A-against-B ,
                                         ex:A-beats-B ,
                                         ex:shout-abuse-coach ,
                                         ex:shout-abuse-players ,
@@ -170,7 +161,7 @@ ex:A-beats-B-actionability-storyline rdf:type owl:NamedIndividual ,
 ###  http://purl.org/news/angles/example/Table1/A-beats-B-actionability-storylines
 ex:A-beats-B-actionability-storylines rdf:type owl:NamedIndividual ,
                                                nao:FabulaSpace ;
-                                      nao:includesFabula ex:A-beats-B-actionability-storyline .
+                                      nao:hasMember ex:A-beats-B-actionability-storyline .
 
 
 ###  http://purl.org/news/angles/example/Table1/A-beats-B-conflict
@@ -191,7 +182,7 @@ ex:A-beats-B-conflict-storyline rdf:type owl:NamedIndividual ,
 ###  http://purl.org/news/angles/example/Table1/A-beats-B-conflict-storylines
 ex:A-beats-B-conflict-storylines rdf:type owl:NamedIndividual ,
                                           nao:FabulaSpace ;
-                                 nao:includesFabula ex:A-beats-B-conflict-storyline .
+                                 nao:hasMember ex:A-beats-B-conflict-storyline .
 
 
 ###  http://purl.org/news/angles/example/Table1/A-beats-B-drama
@@ -212,7 +203,7 @@ ex:A-beats-B-drama-storyline rdf:type owl:NamedIndividual ,
 ###  http://purl.org/news/angles/example/Table1/A-beats-B-drama-storylines
 ex:A-beats-B-drama-storylines rdf:type owl:NamedIndividual ,
                                        nao:FabulaSpace ;
-                              nao:includesFabula ex:A-beats-B-drama-storyline .
+                              nao:hasMember ex:A-beats-B-drama-storyline .
 
 
 ###  http://purl.org/news/angles/example/Table1/A-beats-B-extremes
@@ -232,7 +223,7 @@ ex:A-beats-B-extremes-storyline rdf:type owl:NamedIndividual ,
 ###  http://purl.org/news/angles/example/Table1/A-beats-B-extremes-storylines
 ex:A-beats-B-extremes-storylines rdf:type owl:NamedIndividual ,
                                           nao:FabulaSpace ;
-                                 nao:includesFabula ex:A-beats-B-extremes-storyline .
+                                 nao:hasMember ex:A-beats-B-extremes-storyline .
 
 
 ###  http://purl.org/news/angles/example/Table1/A-beats-B-fallfg
@@ -253,7 +244,7 @@ ex:A-beats-B-fallfg-storyline rdf:type owl:NamedIndividual ,
 ###  http://purl.org/news/angles/example/Table1/A-beats-B-fallfg-storylines
 ex:A-beats-B-fallfg-storylines rdf:type owl:NamedIndividual ,
                                         nao:FabulaSpace ;
-                               nao:includesFabula ex:A-beats-B-fallfg-storyline .
+                               nao:hasMember ex:A-beats-B-fallfg-storyline .
 
 
 ###  http://purl.org/news/angles/example/Table1/A-beats-B-human
@@ -274,7 +265,7 @@ ex:A-beats-B-human-storyline rdf:type owl:NamedIndividual ,
 ###  http://purl.org/news/angles/example/Table1/A-beats-B-human-storylines
 ex:A-beats-B-human-storylines rdf:type owl:NamedIndividual ,
                                        nao:FabulaSpace ;
-                              nao:includesFabula ex:A-beats-B-human-storyline .
+                              nao:hasMember ex:A-beats-B-human-storyline .
 
 
 ###  http://purl.org/news/angles/example/Table1/A-beats-B-impact
@@ -295,7 +286,7 @@ ex:A-beats-B-impact-storyline rdf:type owl:NamedIndividual ,
 ###  http://purl.org/news/angles/example/Table1/A-beats-B-impact-storylines
 ex:A-beats-B-impact-storylines rdf:type owl:NamedIndividual ,
                                         nao:FabulaSpace ;
-                               nao:includesFabula ex:A-beats-B-impact-storyline .
+                               nao:hasMember ex:A-beats-B-impact-storyline .
 
 
 ###  http://purl.org/news/angles/example/Table1/A-beats-B-milestone
@@ -316,7 +307,7 @@ ex:A-beats-B-milestone-storyline rdf:type owl:NamedIndividual ,
 ###  http://purl.org/news/angles/example/Table1/A-beats-B-milestone-storylines
 ex:A-beats-B-milestone-storylines rdf:type owl:NamedIndividual ,
                                            nao:FabulaSpace ;
-                                  nao:includesFabula ex:A-beats-B-milestone-storyline .
+                                  nao:hasMember ex:A-beats-B-milestone-storyline .
 
 
 ###  http://purl.org/news/angles/example/Table1/A-beats-B-prominence
@@ -336,7 +327,7 @@ ex:A-beats-B-prominence-storyline rdf:type owl:NamedIndividual ,
 ###  http://purl.org/news/angles/example/Table1/A-beats-B-prominence-storylines
 ex:A-beats-B-prominence-storylines rdf:type owl:NamedIndividual ,
                                             nao:FabulaSpace ;
-                                   nao:includesFabula ex:A-beats-B-prominence-storyline .
+                                   nao:hasMember ex:A-beats-B-prominence-storyline .
 
 
 ###  http://purl.org/news/angles/example/Table1/A-beats-B-proximity
@@ -358,7 +349,7 @@ ex:A-beats-B-proximity-storyline rdf:type owl:NamedIndividual ,
 ###  http://purl.org/news/angles/example/Table1/A-beats-B-proximity-storylines
 ex:A-beats-B-proximity-storylines rdf:type owl:NamedIndividual ,
                                            nao:FabulaSpace ;
-                                  nao:includesFabula ex:A-beats-B-proximity-storyline .
+                                  nao:hasMember ex:A-beats-B-proximity-storyline .
 
 
 ###  http://purl.org/news/angles/example/Table1/A-beats-B-report
