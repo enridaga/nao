@@ -130,7 +130,9 @@ ex:A-against-B-events rdf:type owl:NamedIndividual ,
                                         ex:team-B-minor-defeat-3 ,
                                         ex:team-B-relegated ,
                                         ex:team-B-unconscious ,
-                                        ex:team-B-winners .
+                                        ex:team-B-winners,
+										ex:injured-player-grew-up-here,
+										ex:team-A-concedes-a-goal  .
 
 
 ###  http://purl.org/news/angles/example/Table1/A-beats-B
@@ -148,197 +150,197 @@ ex:A-beats-B rdf:type owl:NamedIndividual ,
 ex:A-beats-B-actionability rdf:type owl:NamedIndividual ,
                                     nao:Actionability ;
                            nao:hasEvents ex:A-against-B-events ;
-                           nao:hasFabulae ex:A-beats-B-actionability-storylines .
+                           nao:hasFabulae ex:A-beats-B-actionability-fabulae .
 
 
-###  http://purl.org/news/angles/example/Table1/A-beats-B-actionability-storyline
-ex:A-beats-B-actionability-storyline rdf:type owl:NamedIndividual ,
+###  http://purl.org/news/angles/example/Table1/A-beats-B-actionability-fabula
+ex:A-beats-B-actionability-fabula rdf:type owl:NamedIndividual ,
                                               nao:Fabula ;
                                      nao:hasEvent ex:team-A-next-match-tickets-online ;
                                      rdfs:label "Tickets still available for the next match of Team A: buy them here" .
 
 
-###  http://purl.org/news/angles/example/Table1/A-beats-B-actionability-storylines
-ex:A-beats-B-actionability-storylines rdf:type owl:NamedIndividual ,
+###  http://purl.org/news/angles/example/Table1/A-beats-B-actionability-fabulae
+ex:A-beats-B-actionability-fabulae rdf:type owl:NamedIndividual ,
                                                nao:FabulaSpace ;
-                                      nao:hasMember ex:A-beats-B-actionability-storyline .
+                                      nao:hasMember ex:A-beats-B-actionability-fabula .
 
 
 ###  http://purl.org/news/angles/example/Table1/A-beats-B-conflict
 ex:A-beats-B-conflict rdf:type owl:NamedIndividual ,
                                nao:Conflict ;
                       nao:hasEvents ex:A-against-B-events ;
-                      nao:hasFabulae ex:A-beats-B-conflict-storylines .
+                      nao:hasFabulae ex:A-beats-B-conflict-fabulae .
 
 
-###  http://purl.org/news/angles/example/Table1/A-beats-B-conflict-storyline
-ex:A-beats-B-conflict-storyline rdf:type owl:NamedIndividual ,
+###  http://purl.org/news/angles/example/Table1/A-beats-B-conflict-fabula
+ex:A-beats-B-conflict-fabula rdf:type owl:NamedIndividual ,
                                          nao:Fabula ;
                                 nao:hasEvent ex:shout-abuse-coach ,
                                              ex:shout-abuse-players ;
                                 rdfs:label "Supporters of team B shout abuse at the coach and players" .
 
 
-###  http://purl.org/news/angles/example/Table1/A-beats-B-conflict-storylines
-ex:A-beats-B-conflict-storylines rdf:type owl:NamedIndividual ,
+###  http://purl.org/news/angles/example/Table1/A-beats-B-conflict-fabulae
+ex:A-beats-B-conflict-fabulae rdf:type owl:NamedIndividual ,
                                           nao:FabulaSpace ;
-                                 nao:hasMember ex:A-beats-B-conflict-storyline .
+                                 nao:hasMember ex:A-beats-B-conflict-fabula .
 
 
 ###  http://purl.org/news/angles/example/Table1/A-beats-B-drama
 ex:A-beats-B-drama rdf:type owl:NamedIndividual ,
                             nao:Drama ;
                    nao:hasEvents ex:A-against-B-events ;
-                   nao:hasFabulae ex:A-beats-B-drama-storylines .
+                   nao:hasFabulae ex:A-beats-B-drama-fabulae .
 
 
-###  http://purl.org/news/angles/example/Table1/A-beats-B-drama-storyline
-ex:A-beats-B-drama-storyline rdf:type owl:NamedIndividual ,
+###  http://purl.org/news/angles/example/Table1/A-beats-B-drama-fabula
+ex:A-beats-B-drama-fabula rdf:type owl:NamedIndividual ,
                                       nao:Fabula ;
                              nao:hasEvent ex:team-B-clash-head ,
                                           ex:team-B-unconscious ;
                              rdfs:label "Team B player was unconscious for several minutes after clash of head with opponent" .
 
 
-###  http://purl.org/news/angles/example/Table1/A-beats-B-drama-storylines
-ex:A-beats-B-drama-storylines rdf:type owl:NamedIndividual ,
+###  http://purl.org/news/angles/example/Table1/A-beats-B-drama-fabulae
+ex:A-beats-B-drama-fabulae rdf:type owl:NamedIndividual ,
                                        nao:FabulaSpace ;
-                              nao:hasMember ex:A-beats-B-drama-storyline .
+                              nao:hasMember ex:A-beats-B-drama-fabula .
 
 
 ###  http://purl.org/news/angles/example/Table1/A-beats-B-extremes
 ex:A-beats-B-extremes rdf:type owl:NamedIndividual ,
                                nao:Extremes ;
                       nao:hasEvents ex:A-against-B-events ;
-                      nao:hasFabulae ex:A-beats-B-extremes-storylines .
+                      nao:hasFabulae ex:A-beats-B-extremes-fabulae .
 
 
-###  http://purl.org/news/angles/example/Table1/A-beats-B-extremes-storyline
-ex:A-beats-B-extremes-storyline rdf:type owl:NamedIndividual ,
+###  http://purl.org/news/angles/example/Table1/A-beats-B-extremes-fabula
+ex:A-beats-B-extremes-fabula rdf:type owl:NamedIndividual ,
                                          nao:Fabula ;
                                 nao:hasEvent ex:team-B-major-defeat ;
                                 rdfs:label "This was the biggest league defeat ever for team B" .
 
 
-###  http://purl.org/news/angles/example/Table1/A-beats-B-extremes-storylines
-ex:A-beats-B-extremes-storylines rdf:type owl:NamedIndividual ,
+###  http://purl.org/news/angles/example/Table1/A-beats-B-extremes-fabulae
+ex:A-beats-B-extremes-fabulae rdf:type owl:NamedIndividual ,
                                           nao:FabulaSpace ;
-                                 nao:hasMember ex:A-beats-B-extremes-storyline .
+                                 nao:hasMember ex:A-beats-B-extremes-fabula .
 
 
 ###  http://purl.org/news/angles/example/Table1/A-beats-B-fallfg
 ex:A-beats-B-fallfg rdf:type owl:NamedIndividual ,
                              nao:FallFromGrace ;
                     nao:hasEvents ex:A-against-B-events ;
-                    nao:hasFabulae ex:A-beats-B-fallfg-storylines .
+                    nao:hasFabulae ex:A-beats-B-fallfg-fabulae .
 
 
-###  http://purl.org/news/angles/example/Table1/A-beats-B-fallfg-storyline
-ex:A-beats-B-fallfg-storyline rdf:type owl:NamedIndividual ,
+###  http://purl.org/news/angles/example/Table1/A-beats-B-fallfg-fabula
+ex:A-beats-B-fallfg-fabula rdf:type owl:NamedIndividual ,
                                        nao:Fabula ;
                               nao:hasEvent ex:team-B-relegated ,
                                            ex:team-B-winners ;
                               rdfs:label "Team B went from league winners to relegation in only 10 months" .
 
 
-###  http://purl.org/news/angles/example/Table1/A-beats-B-fallfg-storylines
-ex:A-beats-B-fallfg-storylines rdf:type owl:NamedIndividual ,
+###  http://purl.org/news/angles/example/Table1/A-beats-B-fallfg-fabulae
+ex:A-beats-B-fallfg-fabulae rdf:type owl:NamedIndividual ,
                                         nao:FabulaSpace ;
-                               nao:hasMember ex:A-beats-B-fallfg-storyline .
+                               nao:hasMember ex:A-beats-B-fallfg-fabula .
 
 
 ###  http://purl.org/news/angles/example/Table1/A-beats-B-human
 ex:A-beats-B-human rdf:type owl:NamedIndividual ,
                             nao:HumanInterest ;
                    nao:hasEvents ex:A-against-B-events ;
-                   nao:hasFabulae ex:A-beats-B-human-storylines .
+                   nao:hasFabulae ex:A-beats-B-human-fabulae .
 
 
-###  http://purl.org/news/angles/example/Table1/A-beats-B-human-storyline
-ex:A-beats-B-human-storyline rdf:type owl:NamedIndividual ,
+###  http://purl.org/news/angles/example/Table1/A-beats-B-human-fabula
+ex:A-beats-B-human-fabula rdf:type owl:NamedIndividual ,
                                       nao:Fabula ;
                              nao:hasEvent ex:team-A-midfielder-honoured-brother ,
                                           ex:team-A-midfielder-scores ;
                              rdfs:label "Left midfielder who scored for team A played in honour of his terminally ill younger brother" .
 
 
-###  http://purl.org/news/angles/example/Table1/A-beats-B-human-storylines
-ex:A-beats-B-human-storylines rdf:type owl:NamedIndividual ,
+###  http://purl.org/news/angles/example/Table1/A-beats-B-human-fabulae
+ex:A-beats-B-human-fabulae rdf:type owl:NamedIndividual ,
                                        nao:FabulaSpace ;
-                              nao:hasMember ex:A-beats-B-human-storyline .
+                              nao:hasMember ex:A-beats-B-human-fabula .
 
 
 ###  http://purl.org/news/angles/example/Table1/A-beats-B-impact
 ex:A-beats-B-impact rdf:type owl:NamedIndividual ,
                              nao:Impact ;
                     nao:hasEvents ex:A-against-B-events ;
-                    nao:hasFabulae ex:A-beats-B-impact-storylines .
+                    nao:hasFabulae ex:A-beats-B-impact-fabulae .
 
 
-###  http://purl.org/news/angles/example/Table1/A-beats-B-impact-storyline
-ex:A-beats-B-impact-storyline rdf:type owl:NamedIndividual ,
+###  http://purl.org/news/angles/example/Table1/A-beats-B-impact-fabula
+ex:A-beats-B-impact-fabula rdf:type owl:NamedIndividual ,
                                        nao:Fabula ;
                               nao:hasEvent ex:team-B-bancruptcy ,
                                            ex:team-B-relegated ;
                               rdfs:label "Team B is now relegated and on the brink of bankruptcy" .
 
 
-###  http://purl.org/news/angles/example/Table1/A-beats-B-impact-storylines
-ex:A-beats-B-impact-storylines rdf:type owl:NamedIndividual ,
+###  http://purl.org/news/angles/example/Table1/A-beats-B-impact-fabulae
+ex:A-beats-B-impact-fabulae rdf:type owl:NamedIndividual ,
                                         nao:FabulaSpace ;
-                               nao:hasMember ex:A-beats-B-impact-storyline .
+                               nao:hasMember ex:A-beats-B-impact-fabula .
 
 
 ###  http://purl.org/news/angles/example/Table1/A-beats-B-milestone
 ex:A-beats-B-milestone rdf:type owl:NamedIndividual ,
                                 nao:Milestone ;
                        nao:hasEvents ex:A-against-B-events ;
-                       nao:hasFabulae ex:A-beats-B-milestone-storylines .
+                       nao:hasFabulae ex:A-beats-B-milestone-fabulae .
 
 
-###  http://purl.org/news/angles/example/Table1/A-beats-B-milestone-storyline
-ex:A-beats-B-milestone-storyline rdf:type owl:NamedIndividual ,
+###  http://purl.org/news/angles/example/Table1/A-beats-B-milestone-fabula
+ex:A-beats-B-milestone-fabula rdf:type owl:NamedIndividual ,
                                           nao:Fabula ;
                                  nao:hasEvent ex:team-A-concedes-a-goal ,
                                               ex:team-A-still-no-goals ;
                                  rdfs:label "38 minutes into this match, team A became the first team ever in the league to reach 1000 minutes played without conceding a goal" .
 
 
-###  http://purl.org/news/angles/example/Table1/A-beats-B-milestone-storylines
-ex:A-beats-B-milestone-storylines rdf:type owl:NamedIndividual ,
+###  http://purl.org/news/angles/example/Table1/A-beats-B-milestone-fabulae
+ex:A-beats-B-milestone-fabulae rdf:type owl:NamedIndividual ,
                                            nao:FabulaSpace ;
-                                  nao:hasMember ex:A-beats-B-milestone-storyline .
+                                  nao:hasMember ex:A-beats-B-milestone-fabula .
 
 
 ###  http://purl.org/news/angles/example/Table1/A-beats-B-prominence
 ex:A-beats-B-prominence rdf:type owl:NamedIndividual ,
                                  nao:Prominence ;
                         nao:hasEvents ex:A-against-B-events ;
-                        nao:hasFabulae ex:A-beats-B-prominence-storylines .
+                        nao:hasFabulae ex:A-beats-B-prominence-fabulae .
 
 
-###  http://purl.org/news/angles/example/Table1/A-beats-B-prominence-storyline
-ex:A-beats-B-prominence-storyline rdf:type owl:NamedIndividual ,
+###  http://purl.org/news/angles/example/Table1/A-beats-B-prominence-fabula
+ex:A-beats-B-prominence-fabula rdf:type owl:NamedIndividual ,
                                            nao:Fabula ;
                                   nao:hasEvent ex:team-A-star-player-scores-4 ;
                                   rdfs:label "Star player in team A scores 4 goals" .
 
 
-###  http://purl.org/news/angles/example/Table1/A-beats-B-prominence-storylines
-ex:A-beats-B-prominence-storylines rdf:type owl:NamedIndividual ,
+###  http://purl.org/news/angles/example/Table1/A-beats-B-prominence-fabulae
+ex:A-beats-B-prominence-fabulae rdf:type owl:NamedIndividual ,
                                             nao:FabulaSpace ;
-                                   nao:hasMember ex:A-beats-B-prominence-storyline .
+                                   nao:hasMember ex:A-beats-B-prominence-fabula .
 
 
 ###  http://purl.org/news/angles/example/Table1/A-beats-B-proximity
 ex:A-beats-B-proximity rdf:type owl:NamedIndividual ,
                                 nao:Proximity ;
                        nao:hasEvents ex:A-against-B-events ;
-                       nao:hasFabulae ex:A-beats-B-proximity-storylines .
+                       nao:hasFabulae ex:A-beats-B-proximity-fabulae .
 
 
-###  http://purl.org/news/angles/example/Table1/A-beats-B-proximity-storyline
-ex:A-beats-B-proximity-storyline rdf:type owl:NamedIndividual ,
+###  http://purl.org/news/angles/example/Table1/A-beats-B-proximity-fabula
+ex:A-beats-B-proximity-fabula rdf:type owl:NamedIndividual ,
                                           nao:Fabula ;
                                  nao:hasEvent ex:injured-player-grew-up-here ,
                                               ex:team-B-clash-head ,
@@ -346,10 +348,10 @@ ex:A-beats-B-proximity-storyline rdf:type owl:NamedIndividual ,
                                  rdfs:label "Injured team B player is a local boy who grew up just down the road from our editorial office" .
 
 
-###  http://purl.org/news/angles/example/Table1/A-beats-B-proximity-storylines
-ex:A-beats-B-proximity-storylines rdf:type owl:NamedIndividual ,
+###  http://purl.org/news/angles/example/Table1/A-beats-B-proximity-fabulae
+ex:A-beats-B-proximity-fabulae rdf:type owl:NamedIndividual ,
                                            nao:FabulaSpace ;
-                                  nao:hasMember ex:A-beats-B-proximity-storyline .
+                                  nao:hasMember ex:A-beats-B-proximity-fabula .
 
 
 ###  http://purl.org/news/angles/example/Table1/A-beats-B-report

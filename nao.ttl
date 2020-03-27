@@ -13,10 +13,48 @@
 # 
 # #################################################################
 # #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/news/angles/sourceURL
+
+:sourceURL a owl:AnnotationProperty ;
+	rdfs:domain :NewsItem .
+# 
+# 
+# 
+# #################################################################
+# #
 # #    Object Properties
 # #
 # #################################################################
 # 
+# 
+# http://purl.org/news/angles/author
+
+:author a owl:ObjectProperty ;
+	rdfs:domain :NewsItem ;
+	rdfs:range :Actor .
+# 
+# http://purl.org/news/angles/hasActor
+
+:hasActor a owl:ObjectProperty ;
+	rdfs:domain :ActorComponent ;
+	rdfs:range :Actor .
+# 
+# http://purl.org/news/angles/hasActorComponent
+
+:hasActorComponent a owl:ObjectProperty ;
+	rdfs:domain :Event ;
+	rdfs:range :ActorComponent .
+# 
+# http://purl.org/news/angles/hasActorRole
+
+:hasActorRole a owl:ObjectProperty ;
+	rdfs:domain :ActorComponent ;
+	rdfs:range :ActorRole .
 # 
 # http://purl.org/news/angles/hasDomain
 
@@ -73,10 +111,28 @@ _:genid2 a rdf:List ;
 	rdfs:domain :Fabula ;
 	rdfs:range :NewsAngle .
 # 
+# http://purl.org/news/angles/hasPlace
+
+:hasPlace a owl:ObjectProperty ;
+	rdfs:domain :Event ;
+	rdfs:range :Place .
+# 
 # http://purl.org/news/angles/hasRange
 
 :hasRange a owl:ObjectProperty ;
 	rdfs:domain :Function .
+# 
+# http://purl.org/news/angles/hasSource
+
+:hasSource a owl:ObjectProperty ;
+	rdfs:domain :NewsItem ;
+	rdfs:range :Source .
+# 
+# http://purl.org/news/angles/hasTime
+
+:hasTime a owl:ObjectProperty ;
+	rdfs:domain :Event ;
+	rdfs:range :Time .
 # 
 # 
 # 
@@ -92,9 +148,17 @@ _:genid2 a rdf:List ;
 :Actionability a owl:Class ;
 	rdfs:subClassOf :NewsAngle .
 # 
-# http://purl.org/news/angles/Authority
+# http://purl.org/news/angles/Actor
 
-:Authority a owl:Class .
+:Actor a owl:Class .
+# 
+# http://purl.org/news/angles/ActorComponent
+
+:ActorComponent a owl:Class .
+# 
+# http://purl.org/news/angles/ActorRole
+
+:ActorRole a owl:Class .
 # 
 # http://purl.org/news/angles/Celebrity
 
@@ -205,10 +269,9 @@ _:genid8 a owl:Class .
 :NewsReport a owl:Class ;
 	rdfs:subClassOf :NewsItem .
 # 
-# http://purl.org/news/angles/PerAsperaAdAstra
+# http://purl.org/news/angles/Place
 
-:PerAsperaAdAstra a owl:Class ;
-	rdfs:subClassOf :HumanInterest .
+:Place a owl:Class .
 # 
 # http://purl.org/news/angles/Recency
 
@@ -219,6 +282,11 @@ _:genid8 a owl:Class .
 
 :Set a owl:Class .
 # 
+# http://purl.org/news/angles/Source
+
+:Source a owl:Class ;
+	rdfs:comment "For e.g.: news source" .
+# 
 # http://purl.org/news/angles/Storyline
 
 :Storyline a owl:Class .
@@ -227,6 +295,10 @@ _:genid8 a owl:Class .
 
 :TheUnusual a owl:Class ;
 	rdfs:subClassOf :NewsAngle .
+# 
+# http://purl.org/news/angles/Time
+
+:Time a owl:Class .
 # 
 # http://purl.org/news/angles/TriumphOverAdversity
 
