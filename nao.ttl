@@ -109,6 +109,13 @@ nao:hasPlace rdf:type owl:ObjectProperty ;
              rdfs:range nao:Place .
 
 
+###  http://purl.org/news/angles/hasPublishedTime
+nao:hasPublishedTime rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf time:hasTime ;
+                     rdfs:domain nao:NewsItem ;
+                     rdfs:range time:Instant .
+
+
 ###  http://purl.org/news/angles/hasRange
 nao:hasRange rdf:type owl:ObjectProperty ;
              rdfs:domain nao:Function .
@@ -120,10 +127,8 @@ nao:hasSource rdf:type owl:ObjectProperty ;
               rdfs:range nao:Source .
 
 
-###  http://purl.org/news/angles/hasTime
-nao:hasTime rdf:type owl:ObjectProperty ;
-            rdfs:domain nao:Event ;
-            rdfs:range nao:Time .
+###  http://www.w3.org/2006/time#hasTime
+time:hasTime rdf:type owl:ObjectProperty .
 
 
 #################################################################
@@ -162,7 +167,11 @@ nao:Conflict rdf:type owl:Class ;
 
 ###  http://purl.org/news/angles/Event
 nao:Event rdf:type owl:Class ;
-          owl:equivalentClass sem:Event .
+          owl:equivalentClass sem:Event ;
+          rdfs:subClassOf [ rdf:type owl:Restriction ;
+                            owl:onProperty time:hasTime ;
+                            owl:allValuesFrom time:Interval
+                          ] .
 
 
 ###  http://purl.org/news/angles/EventSpace
@@ -224,11 +233,26 @@ nao:LocalInterest rdf:type owl:Class ;
 
 ###  http://purl.org/news/angles/NewsAngle
 nao:NewsAngle rdf:type owl:Class ;
-              rdfs:subClassOf nao:Function .
+              rdfs:subClassOf [ owl:intersectionOf ( nao:Function
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty nao:hasDomain ;
+                                                       owl:allValuesFrom nao:EventSpace
+                                                     ]
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty nao:hasRange ;
+                                                       owl:allValuesFrom nao:FabulaSpace
+                                                     ]
+                                                   ) ;
+                                rdf:type owl:Class
+                              ] .
 
 
 ###  http://purl.org/news/angles/NewsItem
-nao:NewsItem rdf:type owl:Class .
+nao:NewsItem rdf:type owl:Class ;
+             rdfs:subClassOf [ rdf:type owl:Restriction ;
+                               owl:onProperty time:hasTime ;
+                               owl:allValuesFrom time:Instant
+                             ] .
 
 
 ###  http://purl.org/news/angles/NewsReport
@@ -260,14 +284,13 @@ nao:Source rdf:type owl:Class ;
 nao:Storyline rdf:type owl:Class .
 
 
+###  http://purl.org/news/angles/TemporalEntity
+nao:TemporalEntity rdf:type owl:Class .
+
+
 ###  http://purl.org/news/angles/TheUnusual
 nao:TheUnusual rdf:type owl:Class ;
                rdfs:subClassOf nao:NewsAngle .
-
-
-###  http://purl.org/news/angles/Time
-nao:Time rdf:type owl:Class ;
-         owl:equivalentClass time:TemporalEntity .
 
 
 ###  http://purl.org/news/angles/TriumphOverAdversity
@@ -281,6 +304,14 @@ sem:Event rdf:type owl:Class .
 
 ###  http://www.geonames.org/ontology#Feature
 <http://www.geonames.org/ontology#Feature> rdf:type owl:Class .
+
+
+###  http://www.w3.org/2006/time#Instant
+time:Instant rdf:type owl:Class .
+
+
+###  http://www.w3.org/2006/time#Interval
+time:Interval rdf:type owl:Class .
 
 
 ###  http://www.w3.org/2006/time#TemporalEntity
