@@ -48,7 +48,7 @@
           <y:Geometry height="56.0" width="180.0" x="766.8092715231788" y="341.7986754966887"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="80.640625" x="49.6796875" xml:space="preserve" y="4.0">nao:ActoRole</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="85.55078125" x="47.224609375" xml:space="preserve" y="4.0">nao:ActorRole</y:NodeLabel>
           <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="155.962890625" x="2.0" xml:space="preserve" y="30.1328125">skos:closeMatch sem:Role<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
@@ -73,11 +73,11 @@
     <node id="n4">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="64.0" width="232.0" x="183.07019867549667" y="-203.40132450331134"/>
+          <y:Geometry height="64.0" width="232.0" x="183.07019867549667" y="-236.40132450331134"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="94.052734375" x="68.9736328125" xml:space="preserve" y="4.0">nao:EventSpace</y:NodeLabel>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="185.53515625" x="2.0" xml:space="preserve" y="30.1328125">nao:hasMember only nao:Event<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="203.171875" x="2.0" xml:space="preserve" y="30.1328125">nao:hasMember only nao:EventSet<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
           </y:StyleProperties>
@@ -101,11 +101,11 @@
     <node id="n6">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="64.0" width="232.0" x="495.0701986754966" y="-203.40132450331134"/>
+          <y:Geometry height="64.0" width="232.0" x="460.1403973509932" y="-236.40132450331134"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="100.873046875" x="65.5634765625" xml:space="preserve" y="4.0">nao:FabulaSpace</y:NodeLabel>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="192.35546875" x="2.0" xml:space="preserve" y="30.1328125">nao:hasMember only nao:Fabula<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="209.9921875" x="2.0" xml:space="preserve" y="30.1328125">nao:hasMember only nao:FabulaSet<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
           </y:StyleProperties>
@@ -115,7 +115,7 @@
     <node id="n7">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="90.0" width="194.0" x="474.57086092715235" y="-378.35231788079477"/>
+          <y:Geometry height="90.0" width="194.0" x="411.57086092715235" y="-378.35231788079477"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="79.4921875" x="57.25390625" xml:space="preserve" y="4.0">nao:Function</y:NodeLabel>
@@ -145,7 +145,7 @@ nao:hasRange only nao:FabulaSpace<y:LabelModel><y:ErdAttributesNodeLabelModel/><
     <node id="n9">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="49.0" width="103.39072847682121" x="701.9827814569537" y="-378.35231788079477"/>
+          <y:Geometry height="49.0" width="103.39072847682121" x="653.9827814569537" y="-378.35231788079477"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="85.990234375" x="8.700247050910548" xml:space="preserve" y="4.0">nao:NewsItem</y:NodeLabel>
@@ -166,7 +166,7 @@ nao:hasRange only nao:FabulaSpace<y:LabelModel><y:ErdAttributesNodeLabelModel/><
     <node id="n10">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="90.0" width="113.77483443708616" x="807.0701986754966" y="-148.6013245033114"/>
+          <y:Geometry height="49.0" width="113.77483443708616" x="722.9092715231787" y="-68.77682119205303"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="98.751953125" x="7.511440656043078" xml:space="preserve" y="4.0">nao:NewsReport</y:NodeLabel>
@@ -243,10 +243,10 @@ nao:hasRange only nao:FabulaSpace<y:LabelModel><y:ErdAttributesNodeLabelModel/><
     <node id="n14">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="90.0" width="80.0" x="915.4940397350992" y="-378.35231788079477"/>
+          <y:Geometry height="49.0" width="113.77483443708616" x="803.9218543046358" y="-378.35231788079477"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="68.265625" x="5.8671875" xml:space="preserve" y="4.0">nao:Source</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="99.1796875" x="7.297573468543078" xml:space="preserve" y="4.0">nao:NewsSource</y:NodeLabel>
           <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="4.0" x="2.0" y="30.1328125">
             <y:LabelModel>
               <y:ErdAttributesNodeLabelModel/>
@@ -264,10 +264,10 @@ nao:hasRange only nao:FabulaSpace<y:LabelModel><y:ErdAttributesNodeLabelModel/><
     <node id="n15">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="96.0" width="80.0" x="915.4940397350992" y="-268.7218543046358"/>
+          <y:Geometry height="49.0" width="113.77483443708616" x="812.9218543046358" y="-138.27913907284776"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="73.71484375" x="3.142578125" xml:space="preserve" y="4.0">time:Instant</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="88.515625" x="12.629604718543078" xml:space="preserve" y="4.0">nao:Timepoint</y:NodeLabel>
           <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="4.0" x="2.0" y="30.1328125">
             <y:LabelModel>
               <y:ErdAttributesNodeLabelModel/>
@@ -282,13 +282,41 @@ nao:hasRange only nao:FabulaSpace<y:LabelModel><y:ErdAttributesNodeLabelModel/><
         </y:GenericNode>
       </data>
     </node>
+    <node id="n16">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="60.0" width="188.0" x="504.1403973509932" y="-138.27913907284776"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="85.03515625" x="51.482421875" xml:space="preserve" y="4.0">nao:FabulaSet</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="192.35546875" x="2.0" xml:space="preserve" y="30.1328125">nao:hasMember only nao:Fabula<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n17">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="60.0" width="188.0" x="183.07019867549667" y="-134.15695364238417"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="78.21484375" x="54.892578125" xml:space="preserve" y="4.0">nao:EventSet</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="185.53515625" x="2.0" xml:space="preserve" y="30.1328125">nao:hasMember only nao:Event<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
     <edge id="e0" source="n1" target="n0">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="86.5" sy="-39.35827814569537" tx="-103.0" ty="39.35827814569535"/>
+          <y:Path sx="86.5" sy="-39.35827814569535" tx="-103.0" ty="39.35827814569535"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="delta"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="side_slider" preferredPlacement="on_edge" ratio="0.0" textColor="#000000" verticalTextPosition="bottom" visible="true" width="80.62890625" x="10.125026677618052" xml:space="preserve" y="-20.13281076191288">nao:hasActor<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" placement="anywhere" side="on_edge" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="side_slider" preferredPlacement="on_edge" ratio="0.0" textColor="#000000" verticalTextPosition="bottom" visible="true" width="80.62890625" x="10.125026677618052" xml:space="preserve" y="2.000001738087178">nao:hasActor<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" placement="anywhere" side="on_edge" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
@@ -318,13 +346,15 @@ nao:hasRange only nao:FabulaSpace<y:LabelModel><y:ErdAttributesNodeLabelModel/><
     <edge id="e3" source="n4" target="n5">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="-45.99999999999997" sy="32.0" tx="-98.5" ty="-36.466796875">
-            <y:Point x="253.0701986754967" y="101.0701986754967"/>
-            <y:Point x="275.620620343543" y="123.62062034354301"/>
+          <y:Path sx="-116.0" sy="23.466796875" tx="-98.5" ty="-36.466796875">
+            <y:Point x="175.93452762831134" y="-180.93452762831134"/>
+            <y:Point x="173.07019867549667" y="-178.07019867549667"/>
+            <y:Point x="173.07019867549667" y="101.07019867549667"/>
+            <y:Point x="195.620620343543" y="123.62062034354301"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="delta"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="side_slider" preferredPlacement="on_edge" ratio="0.632920208828759" textColor="#000000" verticalTextPosition="bottom" visible="true" width="96.806640625" x="1.999992987020164" xml:space="preserve" y="200.2173365187487">nao:hasMember<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" placement="anywhere" side="on_edge" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="side_slider" preferredPlacement="on_edge" ratio="0.6728577964392904" textColor="#000000" verticalTextPosition="bottom" visible="true" width="96.806640625" x="13.578292462683635" xml:space="preserve" y="306.5551448796758">nao:hasMember<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" placement="anywhere" side="on_edge" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
@@ -333,7 +363,7 @@ nao:hasRange only nao:FabulaSpace<y:LabelModel><y:ErdAttributesNodeLabelModel/><
       <data key="d8" xml:space="preserve"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="26.250331125827756" sy="-45.0" tx="-90.25033112582787" ty="45.0"/>
+          <y:Path sx="-17.464900662251807" sy="-45.0" tx="-70.96556291390743" ty="45.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="white_delta"/>
           <y:BendStyle smoothed="false"/>
@@ -344,10 +374,7 @@ nao:hasRange only nao:FabulaSpace<y:LabelModel><y:ErdAttributesNodeLabelModel/><
       <data key="d8" xml:space="preserve"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="-3.523841059602546" sy="-45.0" tx="51.69536423841066" ty="15.966796875">
-            <y:Point x="860.4337748344371" y="-321.56622516556286"/>
-            <y:Point x="844.1144789942052" y="-337.88552100579477"/>
-          </y:Path>
+          <y:Path sx="-46.24552268729303" sy="-24.5" tx="27.873020359064526" ty="24.5"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="white_delta"/>
           <y:BendStyle smoothed="false"/>
@@ -357,16 +384,13 @@ nao:hasRange only nao:FabulaSpace<y:LabelModel><y:ErdAttributesNodeLabelModel/><
     <edge id="e6" source="n9" target="n5">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="-24.5" tx="-98.5" ty="-36.466796875">
-            <y:Point x="753.6781456953643" y="-388.35231788079477"/>
-            <y:Point x="195.35231788079477" y="-388.35231788079477"/>
-            <y:Point x="173.07019867549667" y="-366.07019867549667"/>
-            <y:Point x="173.07019867549667" y="101.07019867549667"/>
-            <y:Point x="195.620620343543" y="123.62062034354301"/>
+          <y:Path sx="-2.7688741721855195" sy="24.5" tx="98.5" ty="-38.347428637367415">
+            <y:Point x="702.9092715231787" y="99.09072847682128"/>
+            <y:Point x="680.2600114188244" y="121.7399885811756"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="delta"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="side_slider" preferredPlacement="on_edge" ratio="0.87771551289833" textColor="#000000" verticalTextPosition="bottom" visible="true" width="80.76953125" x="-557.0575412775507" xml:space="preserve" y="504.01200828299613">nao:hasEvent<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" placement="anywhere" side="on_edge" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="side_slider" preferredPlacement="on_edge" ratio="0.7933521333238583" textColor="#000000" verticalTextPosition="bottom" visible="true" width="80.76953125" x="-104.41882158898807" xml:space="preserve" y="431.9595015206287">nao:hasEvent<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" placement="anywhere" side="on_edge" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
@@ -380,7 +404,7 @@ nao:hasRange only nao:FabulaSpace<y:LabelModel><y:ErdAttributesNodeLabelModel/><
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="delta"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="side_slider" preferredPlacement="on_edge" ratio="0.5127273634193462" textColor="#000000" verticalTextPosition="bottom" visible="true" width="80.76953125" x="-137.41160788024956" xml:space="preserve" y="14.7612656933199">nao:hasEvent<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" placement="anywhere" side="on_edge" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="side_slider" preferredPlacement="on_edge" ratio="0.02545472683869254" textColor="#000000" verticalTextPosition="bottom" visible="true" width="80.76953125" x="-84.84025281490199" xml:space="preserve" y="14.7612656933199">nao:hasEvent<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" placement="anywhere" side="on_edge" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
@@ -388,13 +412,10 @@ nao:hasRange only nao:FabulaSpace<y:LabelModel><y:ErdAttributesNodeLabelModel/><
     <edge id="e8" source="n10" target="n11">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="-56.88741721854308" sy="36.466796875" tx="0.0" ty="-24.5">
-            <y:Point x="769.1345276283114" y="-67.13452762831139"/>
-            <y:Point x="753.6781456953643" y="-51.678145695364265"/>
-          </y:Path>
+          <y:Path sx="-21.50298013245026" sy="24.5" tx="4.615562913907297" ty="-24.5"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="delta"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="side_slider" preferredPlacement="on_edge" ratio="0.6604944444350427" textColor="#000000" verticalTextPosition="bottom" visible="true" width="87.58984375" x="-51.354996394479485" xml:space="preserve" y="59.982198225624074">nao:hasFabula<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" placement="anywhere" side="on_edge" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="side_slider" preferredPlacement="on_edge" ratio="0.0" textColor="#000000" verticalTextPosition="bottom" visible="true" width="87.58984375" x="2.0000074373965617" xml:space="preserve" y="10.124999944421575">nao:hasFabula<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" placement="anywhere" side="on_edge" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
@@ -402,26 +423,24 @@ nao:hasRange only nao:FabulaSpace<y:LabelModel><y:ErdAttributesNodeLabelModel/><
     <edge id="e9" source="n8" target="n6">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="82.49999999999989" sy="-45.0" tx="-73.5" ty="32.0"/>
+          <y:Path sx="23.5701986754965" sy="-45.0" tx="-97.5" ty="32.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="delta"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="side_slider" preferredPlacement="on_edge" ratio="0.0" textColor="#000000" verticalTextPosition="bottom" visible="true" width="94.275390625" x="2.000008245809113" xml:space="preserve" y="-28.211305449024792">nao:hasFabulae<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" placement="anywhere" side="on_edge" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="side_slider" preferredPlacement="on_edge" ratio="1.0" textColor="#000000" verticalTextPosition="bottom" visible="true" width="85.263671875" x="1.9999859740401007" xml:space="preserve" y="-118.08806156385822">nao:hasRange<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" placement="anywhere" side="on_edge" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e10" source="n6" target="n11">
+    <edge id="e10" source="n16" target="n11">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="83.57754966887433" sy="32.0" tx="0.0" ty="-24.5">
-            <y:Point x="694.6477483443709" y="-11.352251655629061"/>
-            <y:Point x="711.9040472371688" y="5.904047237168811"/>
-            <y:Point x="744.9040472371688" y="5.904047237168811"/>
-            <y:Point x="753.6781456953643" y="14.678145695364265"/>
+          <y:Path sx="41.58178807947047" sy="30.0" tx="-40.0" ty="-15.966796875">
+            <y:Point x="639.7221854304637" y="57.722185430463696"/>
+            <y:Point x="655.1644995440734" y="73.16449954407335"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="delta"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="side_slider" preferredPlacement="on_edge" ratio="0.4317012422995086" textColor="#000000" verticalTextPosition="bottom" visible="true" width="96.806640625" x="-98.80665839391031" xml:space="preserve" y="84.21844216858318">nao:hasMember<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" placement="anywhere" side="on_edge" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="side_slider" preferredPlacement="on_edge" ratio="0.0" textColor="#000000" verticalTextPosition="bottom" visible="true" width="96.806640625" x="-98.8066231632863" xml:space="preserve" y="10.124997584867089">nao:hasMember<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" placement="anywhere" side="on_edge" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
@@ -430,11 +449,11 @@ nao:hasRange only nao:FabulaSpace<y:LabelModel><y:ErdAttributesNodeLabelModel/><
       <data key="d8" xml:space="preserve"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="-22.74966887417213" sy="-32.0" tx="0.0" ty="28.0">
-            <y:Point x="588.3205298013245" y="-233.67947019867552"/>
-            <y:Point x="576.1231788079469" y="-245.87682119205306"/>
-            <y:Point x="316.12317880794694" y="-245.87682119205306"/>
-            <y:Point x="293.7139072847682" y="-268.2860927152318"/>
+          <y:Path sx="0.0" sy="-32.0" tx="0.0" ty="28.0">
+            <y:Point x="576.1403973509932" y="-254.85960264900677"/>
+            <y:Point x="568.6231788079469" y="-262.37682119205306"/>
+            <y:Point x="311.62317880794694" y="-262.37682119205306"/>
+            <y:Point x="293.7139072847682" y="-280.2860927152318"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="white_delta"/>
@@ -445,7 +464,7 @@ nao:hasRange only nao:FabulaSpace<y:LabelModel><y:ErdAttributesNodeLabelModel/><
     <edge id="e12" source="n5" target="n1">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="59.40198675496697" sy="45.0" tx="-47.40198675496697" ty="-45.00000000000001"/>
+          <y:Path sx="59.40198675496697" sy="45.0" tx="-47.40198675496697" ty="-45.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="delta"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="side_slider" preferredPlacement="on_edge" ratio="0.0" textColor="#000000" verticalTextPosition="bottom" visible="true" width="148.498046875" x="2.0000174617135826" xml:space="preserve" y="10.124999616003947">nao:hasActorComponent<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" placement="anywhere" side="on_edge" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
@@ -456,15 +475,15 @@ nao:hasRange only nao:FabulaSpace<y:LabelModel><y:ErdAttributesNodeLabelModel/><
     <edge id="e13" source="n9" target="n0">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="13.392052980132348" sy="24.5" tx="-2.5476821192053194" ty="-45.0">
-            <y:Point x="767.0701986754966" y="-68.92980132450336"/>
-            <y:Point x="789.6208609271522" y="-46.37913907284778"/>
-            <y:Point x="844.6208609271522" y="-46.37913907284778"/>
-            <y:Point x="867.2615894039735" y="-23.738410596026455"/>
+          <y:Path sx="27.96324503311257" sy="24.5" tx="23.98084902731796" ty="-45.0">
+            <y:Point x="733.6413907284768" y="-101.3586092715232"/>
+            <y:Point x="755.9720198675496" y="-79.0279801324504"/>
+            <y:Point x="870.9720198675496" y="-79.0279801324504"/>
+            <y:Point x="893.7901205504968" y="-56.20987944950325"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="delta"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="side_slider" preferredPlacement="on_edge" ratio="0.772663154151713" textColor="#000000" verticalTextPosition="bottom" visible="true" width="67.533203125" x="102.19139897428602" xml:space="preserve" y="396.7302788403913">nao:author<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" placement="anywhere" side="on_edge" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="side_slider" preferredPlacement="on_edge" ratio="0.5482264864030769" textColor="#000000" verticalTextPosition="bottom" visible="true" width="67.533203125" x="158.4634139105184" xml:space="preserve" y="251.32434530700272">nao:author<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" placement="anywhere" side="on_edge" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
@@ -497,10 +516,10 @@ nao:hasRange only nao:FabulaSpace<y:LabelModel><y:ErdAttributesNodeLabelModel/><
     <edge id="e16" source="n8" target="n4">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="-82.5" sy="-45.0" tx="73.50000000000006" ty="32.0"/>
+          <y:Path sx="-58.50000000000006" sy="-45.0" tx="97.5" ty="32.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="delta"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="side_slider" preferredPlacement="on_edge" ratio="0.0" textColor="#000000" verticalTextPosition="bottom" visible="true" width="86.88671875" x="2.0000082458092265" xml:space="preserve" y="-28.211305449024792">nao:hasEvents<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" placement="anywhere" side="on_edge" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="side_slider" preferredPlacement="on_edge" ratio="0.0" textColor="#000000" verticalTextPosition="bottom" visible="true" width="94.5390625" x="-96.53905425419083" xml:space="preserve" y="-28.226503202931042">nao:hasDomain<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" placement="anywhere" side="on_edge" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
@@ -508,10 +527,15 @@ nao:hasRange only nao:FabulaSpace<y:LabelModel><y:ErdAttributesNodeLabelModel/><
     <edge id="e17" source="n9" target="n14">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="51.69536423841066" sy="-10.43359375" tx="-40.0" ty="-30.93359375"/>
+          <y:Path sx="-8.227171719784792" sy="24.5" tx="13.227171719784792" ty="24.5">
+            <y:Point x="697.4509739755795" y="-316.5490260244205"/>
+            <y:Point x="702.6144789942052" y="-311.38552100579477"/>
+            <y:Point x="869.3855210057948" y="-311.38552100579477"/>
+            <y:Point x="874.0364432429636" y="-316.0364432429636"/>
+          </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="delta"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="side_slider" preferredPlacement="on_edge" ratio="0.0" textColor="#000000" verticalTextPosition="bottom" visible="true" width="88.45703125" x="10.124974777524926" xml:space="preserve" y="-20.132804941341647">nao:hasSource<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" placement="anywhere" side="on_edge" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="side_slider" preferredPlacement="on_edge" ratio="0.9428799204844539" textColor="#000000" verticalTextPosition="bottom" visible="true" width="88.45703125" x="82.47750098626352" xml:space="preserve" y="19.966804433658353">nao:hasSource<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" placement="anywhere" side="on_edge" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
@@ -519,13 +543,13 @@ nao:hasRange only nao:FabulaSpace<y:LabelModel><y:ErdAttributesNodeLabelModel/><
     <edge id="e18" source="n11" target="n8">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="-40.0" sy="-15.966796875" tx="10.9033203125" ty="45.0">
-            <y:Point x="474.16449954407335" y="73.16449954407335"/>
-            <y:Point x="465.9735189879967" y="64.97351898799673"/>
+          <y:Path sx="-40.0" sy="-15.966796875" tx="0.0" ty="45.0">
+            <y:Point x="463.16449954407335" y="73.16449954407335"/>
+            <y:Point x="455.0701986754967" y="65.07019867549673"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="delta"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="side_slider" preferredPlacement="on_edge" ratio="0.4571603954686151" textColor="#000000" verticalTextPosition="bottom" visible="true" width="113.7109375" x="-181.1455719115312" xml:space="preserve" y="2.0000021685850697">nao:hasNewsAngle<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" placement="anywhere" side="on_edge" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="side_slider" preferredPlacement="on_edge" ratio="0.9180444319253858" textColor="#000000" verticalTextPosition="bottom" visible="true" width="113.7109375" x="-249.48308346373915" xml:space="preserve" y="-20.13281033141493">nao:hasNewsAngle<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" placement="anywhere" side="on_edge" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
@@ -533,15 +557,91 @@ nao:hasRange only nao:FabulaSpace<y:LabelModel><y:ErdAttributesNodeLabelModel/><
     <edge id="e19" source="n9" target="n15">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="-34.652317880794726" sy="24.5" tx="-40.0" ty="39.466796875">
-            <y:Point x="719.0258278145695" y="-254.97417218543052"/>
-            <y:Point x="731.9227500258692" y="-237.0772499741309"/>
-            <y:Point x="840.7449425703642" y="-237.0772499741309"/>
-            <y:Point x="840.7449425703642" y="-181.25505742963583"/>
+          <y:Path sx="-2.2834631105131393" sy="24.5" tx="-49.5" ty="-24.5">
+            <y:Point x="703.3946825848511" y="-298.60531741514893"/>
+            <y:Point x="716.157134080091" y="-285.842865919909"/>
+            <y:Point x="806.1571340800909" y="-285.842865919909"/>
+            <y:Point x="820.3092715231788" y="-271.6907284768211"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="delta"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="side_slider" preferredPlacement="on_edge" ratio="0.27493066829765267" textColor="#000000" verticalTextPosition="bottom" visible="true" width="134.751953125" x="-0.06794813547708145" xml:space="preserve" y="94.27507546532223">nao:hasPublishedTime<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" placement="anywhere" side="on_edge" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="side_slider" preferredPlacement="on_edge" ratio="0.6975681553159605" textColor="#000000" verticalTextPosition="bottom" visible="true" width="156.232421875" x="118.91461820286634" xml:space="preserve" y="93.37952259728979">nao:hasTimeOfPublication<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" placement="anywhere" side="on_edge" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e20" source="n6" target="n16">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="22.0" sy="32.0" tx="0.0" ty="-30.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="delta"/>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="side_slider" preferredPlacement="on_edge" ratio="0.0" textColor="#000000" verticalTextPosition="bottom" visible="true" width="96.806640625" x="2.0000164916182257" xml:space="preserve" y="7.994683373053249">nao:hasMember<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" placement="anywhere" side="on_edge" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e21" source="n16" target="n3">
+      <data key="d8" xml:space="preserve"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-94.0" sy="-21.466796875" tx="0.0" ty="28.0">
+            <y:Point x="457.2540640521522" y="-129.74593594784776"/>
+            <y:Point x="437.6052980132449" y="-149.39470198675505"/>
+            <y:Point x="437.6052980132449" y="-239.39470198675508"/>
+            <y:Point x="414.62317880794694" y="-262.37682119205306"/>
+            <y:Point x="311.62317880794694" y="-262.37682119205306"/>
+            <y:Point x="293.7139072847682" y="-280.2860927152318"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="white_delta"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e22" source="n17" target="n3">
+      <data key="d8" xml:space="preserve"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-94.0" sy="-21.466796875" tx="-94.0" ty="19.466796875">
+            <y:Point x="156.78785896796012" y="-125.62375051738417"/>
+            <y:Point x="156.78785896796012" y="-323.07019867549667"/>
+            <y:Point x="180.88552100579477" y="-330.88552100579477"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="white_delta"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e23" source="n17" target="n5">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-23.99999999999997" sy="30.0" tx="-98.5" ty="-36.466796875">
+            <y:Point x="253.0701986754967" y="101.0701986754967"/>
+            <y:Point x="275.620620343543" y="123.62062034354301"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="delta"/>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="side_slider" preferredPlacement="on_edge" ratio="0.7338034520477349" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="23.550414655066447" y="192.77757224783988">
+            <y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" placement="anywhere" side="on_edge" sideReference="relative_to_edge_flow"/>
+          </y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e24" source="n11" target="n13">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="1.0302100943210917" sy="24.5" tx="74.91091163079454" ty="-45.0">
+            <y:Point x="754.7083557896854" y="255.29164421031464"/>
+            <y:Point x="732.1728476821193" y="277.82715231788075"/>
+            <y:Point x="427.17284768211925" y="277.82715231788075"/>
+            <y:Point x="421.2139228062914" y="283.7860771937086"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="delta"/>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="side_slider" preferredPlacement="on_edge" ratio="0.3386751837792773" textColor="#000000" verticalTextPosition="bottom" visible="true" width="78.994140625" x="-102.52966696631825" xml:space="preserve" y="145.06304556739246">nao:hasPlace<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" placement="anywhere" side="on_edge" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
