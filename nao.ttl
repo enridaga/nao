@@ -6,25 +6,21 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix time: <http://www.w3.org/2006/time#> .
 @base <http://purl.org/news/angles/> .
 
 <http://purl.org/news/angles/> rdf:type owl:Ontology ;
                                 owl:versionIRI <http://purl.org/news/angles/> ;
-                                owl:versionInfo "0.2.1" ;
+                                owl:versionInfo "0.2.2" ;
                                 rdfs:label "News Angles Ontology"@en .
 
 #################################################################
 #    Annotation properties
 #################################################################
 
-###  http://purl.org/news/angles/sourceURL
-nao:sourceURL rdf:type owl:AnnotationProperty ;
-              rdfs:domain nao:NewsItem .
-
-
 ###  http://www.w3.org/2004/02/skos/core#closeMatch
-<http://www.w3.org/2004/02/skos/core#closeMatch> rdf:type owl:AnnotationProperty .
+skos:closeMatch rdf:type owl:AnnotationProperty .
 
 
 #################################################################
@@ -113,7 +109,7 @@ nao:hasSource rdf:type owl:ObjectProperty ;
 nao:hasTimeOfPublication rdf:type owl:ObjectProperty ;
                          rdfs:subPropertyOf time:hasTime ;
                          rdfs:domain nao:NewsItem ;
-                         rdfs:range time:Instant .
+                         rdfs:range nao:Timepoint .
 
 
 ###  http://www.w3.org/2006/time#hasTime
@@ -133,10 +129,6 @@ nao:hasIdentifier rdf:type owl:DatatypeProperty ;
 #    Classes
 #################################################################
 
-###  http://purl.org/news/angles/Actionability
-nao:Actionability rdf:type owl:Class ;
-                  rdfs:subClassOf nao:NewsAngle .
-
 
 ###  http://purl.org/news/angles/Actor
 nao:Actor rdf:type owl:Class ;
@@ -151,16 +143,6 @@ nao:ActorComponent rdf:type owl:Class ;
 ###  http://purl.org/news/angles/ActorRole
 nao:ActorRole rdf:type owl:Class ;
               <http://www.w3.org/2004/02/skos/core#closeMatch> sem:RoleType .
-
-
-###  http://purl.org/news/angles/Celebrity
-nao:Celebrity rdf:type owl:Class ;
-              rdfs:subClassOf nao:NewsAngle .
-
-
-###  http://purl.org/news/angles/Conflict
-nao:Conflict rdf:type owl:Class ;
-             rdfs:subClassOf nao:NewsAngle .
 
 
 ###  http://purl.org/news/angles/Event
@@ -224,33 +206,10 @@ nao:FabulaSpace rdf:type owl:Class ;
                                 ] .
 
 
-###  http://purl.org/news/angles/FallFromGrace
-nao:FallFromGrace rdf:type owl:Class ;
-                  rdfs:subClassOf nao:HumanInterest .
 
 
 ###  http://purl.org/news/angles/Function
 nao:Function rdf:type owl:Class .
-
-
-###  http://purl.org/news/angles/HumanInterest
-nao:HumanInterest rdf:type owl:Class ;
-                  rdfs:subClassOf nao:NewsAngle .
-
-
-###  http://purl.org/news/angles/Impact
-nao:Impact rdf:type owl:Class ;
-           rdfs:subClassOf nao:NewsAngle .
-
-
-###  http://purl.org/news/angles/Influence
-nao:Influence rdf:type owl:Class ;
-              rdfs:subClassOf nao:NewsAngle .
-
-
-###  http://purl.org/news/angles/LocalInterest
-nao:LocalInterest rdf:type owl:Class ;
-                  rdfs:subClassOf nao:NewsAngle .
 
 
 ###  http://purl.org/news/angles/NewsAngle
@@ -292,37 +251,19 @@ nao:Place rdf:type owl:Class ;
           <http://www.w3.org/2004/02/skos/core#closeMatch> sem:Place ,
                                                            <http://www.geonames.org/ontology#Feature> .
 
-
-###  http://purl.org/news/angles/Recency
-nao:Recency rdf:type owl:Class ;
-            rdfs:subClassOf nao:NewsAngle .
-
-
 ###  http://purl.org/news/angles/Set
 nao:Set rdf:type owl:Class .
-
-
-###  http://purl.org/news/angles/Storyline
-nao:Storyline rdf:type owl:Class .
 
 
 ###  http://purl.org/news/angles/TemporalEntity
 nao:TemporalEntity rdf:type owl:Class .
 
 
-###  http://purl.org/news/angles/TheUnusual
-nao:TheUnusual rdf:type owl:Class ;
-               rdfs:subClassOf nao:NewsAngle .
-
 
 ###  http://purl.org/news/angles/Timepoint
 nao:Timepoint rdf:type owl:Class ;
               owl:equivalentClass time:Instant .
 
-
-###  http://purl.org/news/angles/TriumphOverAdversity
-nao:TriumphOverAdversity rdf:type owl:Class ;
-                         rdfs:subClassOf nao:HumanInterest .
 
 
 ###  http://semanticweb.cs.vu.nl/2009/11/sem/Event

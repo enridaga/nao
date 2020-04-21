@@ -1,0 +1,69 @@
+@prefix : <http://purl.org/news/angles/> .
+@prefix nao: <http://purl.org/news/angles/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@base <http://purl.org/news/angles/catalogue/> .
+
+: a owl:Ontology ;
+	owl:imports nao:
+	.
+	
+###  http://purl.org/news/angles/FallFromGrace
+nao:FallFromGrace rdf:type owl:Class ;
+                  rdfs:subClassOf nao:HumanInterest .
+
+
+  ###  http://purl.org/news/angles/HumanInterest
+  nao:HumanInterest rdf:type owl:Class ;
+                    rdfs:subClassOf nao:NewsAngle .
+
+
+###  http://purl.org/news/angles/Celebrity
+nao:Celebrity rdf:type owl:Class ;
+              rdfs:subClassOf nao:NewsAngle .
+
+
+###  http://purl.org/news/angles/Conflict
+nao:Conflict rdf:type owl:Class ;
+             rdfs:subClassOf nao:NewsAngle .
+
+  ###  http://purl.org/news/angles/Impact
+  nao:Impact rdf:type owl:Class ;
+             rdfs:subClassOf nao:NewsAngle .
+
+
+  ###  http://purl.org/news/angles/Influence
+  nao:Influence rdf:type owl:Class ;
+                rdfs:subClassOf nao:NewsAngle .
+
+
+  ###  http://purl.org/news/angles/LocalInterest
+  nao:LocalInterest rdf:type owl:Class ;
+                    rdfs:subClassOf nao:NewsAngle .
+
+###  http://purl.org/news/angles/TheUnusual
+nao:TheUnusual rdf:type owl:Class ;
+             rdfs:subClassOf nao:NewsAngle .
+
+###  http://purl.org/news/angles/TriumphOverAdversity
+nao:TriumphOverAdversity rdf:type owl:Class ;
+                         rdfs:subClassOf nao:HumanInterest .
+
+
+
+###  http://purl.org/news/angles/Storyline
+nao:Storyline rdf:type owl:Class .
+
+###  http://purl.org/news/angles/Recency
+nao:Recency rdf:type owl:Class ;
+            rdfs:subClassOf nao:NewsAngle .
+
+
+###  http://purl.org/news/angles/Actionability
+nao:Actionability rdf:type owl:Class ;
+                  rdfs:subClassOf nao:NewsAngle .
